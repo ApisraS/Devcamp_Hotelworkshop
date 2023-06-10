@@ -7,6 +7,8 @@
     margin: 0px; 
     padding: 0px;
     font-family: 'Nanum Gothic', sans-serif;
+
+    overflow-x: hidden;
 }
 
 nav ul {
@@ -28,10 +30,13 @@ nav li:first-child img {
 
 nav li:first-child {
     margin-right: auto;
+    margin-left: 100px;
 }
 
 nav li:last-child {
     margin-left: auto;
+    margin-left: 100px;
+
 }
 
 nav li button {
@@ -41,4 +46,36 @@ nav li button {
     border-radius: 0.5em;
     color: whitesmoke;
     text-shadow: 0px;
+}
+
+section {
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+section h1 {
+    margin-left: 100px;
+}
+
+section .one {
+    height: 400px;
+    width: 60vw;
+    border-radius: 40px;
+    margin-left: auto;
+    padding-top: 18px;
+    object-fit: cover;
+    transform: translate(50%, -5%);
+}
+
+
+
+section .two {
+    height: 400px;
+    width: 60vw;
+    border-radius: 10px;
+    margin-right: auto;
+    transform: translate(0%, -80%);
+
 }
